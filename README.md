@@ -1,5 +1,7 @@
 # Velox Reader ⚡📚
 
+> *"Velox"* proviene del latín y significa **veloz** o **rápido**. Un nombre que refleja nuestro compromiso con la eficiencia y la velocidad de aprendizaje.
+
 **Velox Reader** es una aplicación de lectura de alta velocidad diseñada para profesionales y estudiantes que necesitan absorber información rápidamente. Utilizando la tecnología **RSVP** (Rapid Serial Visual Presentation), Velox elimina los movimientos oculares innecesarios, permitiéndote leer hasta 3 veces más rápido sin sacrificar la comprensión.
 
 ![Velox Reader UI](https://via.placeholder.com/800x450?text=Velox+Reader+Dark+UI)
