@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 """
-Lector EPUB con tecnología RSVP (Rapid Serial Visual Presentation)
-Aplicación completa con biblioteca personal y seguimiento de progreso
+Velox Reader - Lector RSVP Profesional
+Aplicación de lectura rápida con interfaz moderna y biblioteca integrada
 """
 
 import tkinter as tk
@@ -710,7 +709,7 @@ class EPUBReaderApp:
     def __init__(self):
         # Inicializar ventana con tema moderno oscuro "cyborg"
         self.root = tb.Window(themename="cyborg")
-        self.root.title("Lector EPUB con RSVP")
+        self.root.title("Velox Reader")
         self.root.geometry("1000x700")
         self.root.minsize(800, 600)
         

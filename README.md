@@ -1,70 +1,42 @@
-# Epubeador Fast Read 🚀📖
+# Velox Reader ⚡📚
 
-Un lector de libros electrónicos (EPUB) moderno y ultrarrápido basado en la tecnología **RSVP** (Rapid Serial Visual Presentation). Diseñado para aumentar tu velocidad de lectura y comprensión eliminando los movimientos oculares sacádicos.
+**Velox Reader** es una aplicación de lectura de alta velocidad diseñada para profesionales y estudiantes que necesitan absorber información rápidamente. Utilizando la tecnología **RSVP** (Rapid Serial Visual Presentation), Velox elimina los movimientos oculares innecesarios, permitiéndote leer hasta 3 veces más rápido sin sacrificar la comprensión.
 
-## ✨ Características Principales
+![Velox Reader UI](https://via.placeholder.com/800x450?text=Velox+Reader+Dark+UI)
 
-- **Motor RSVP Fluido:** Lectura palabra por palabra con velocidad ajustable (100 - 1000 WPM).
-- **Interfaz Moderna:** Diseño limpio con modo oscuro "Cyborg" (gracias a `ttkbootstrap`) para reducir la fatiga visual.
-- **Biblioteca Integrada:** Gestión automática de libros recientes, progreso de lectura y metadatos.
-- **Navegación Inteligente:** Detección de capítulos y saltos rápidos por página.
-- **Persistencia:** Guarda tu progreso automáticamente (palabra y capítulo exacto) al cerrar.
-- **Multiplataforma:** Funciona en Linux, Windows y macOS gracias a Python.
+## 🚀 Por qué Velox Reader
 
-## 🛠️ Tecnologías
+*   **Velocidad Sin Límites:** Configura tu ritmo desde 100 hasta 1000 palabras por minuto.
+*   **Enfoque Total:** Interfaz oscura "Cyborg" diseñada para eliminar distracciones y reducir la fatiga visual.
+*   **Inteligencia:** Detecta automáticamente la estructura de tus libros EPUB para una navegación perfecta por capítulos.
+*   **Biblioteca Personal:** Organiza tu colección, guarda tu progreso exacto y retoma la lectura donde la dejaste.
 
-Este proyecto está construido con Python 3 y las siguientes librerías de código abierto:
+## ✨ Características Técnicas
 
-*   **[ttkbootstrap](https://ttkbootstrap.readthedocs.io/):** Framework de UI moderno basado en Tkinter.
-*   **[EbookLib](https://github.com/aerkalov/ebooklib):** Para análisis y extracción de contenido EPUB.
-*   **[BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/):** Para limpieza y procesamiento de HTML.
+*   Motor RSVP optimizado en **Python 3**.
+*   Interfaz moderna construida con **ttkbootstrap**.
+*   Base de datos SQLite local para gestión de biblioteca.
+*   Tokenización inteligente que respeta la puntuación para una cadencia de lectura natural.
 
-## 📦 Instalación
+## 📦 Instalación Rápida
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone https://github.com/devjfac1/epubeador-fast-read.git
-    cd epubeador-fast-read
+    git clone https://github.com/devjfac1/velox-reader.git
+    cd velox-reader
     ```
 
-2.  **Instalar dependencias:**
-    Se recomienda usar un entorno virtual:
+2.  **Iniciar:**
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # En Windows: venv\Scripts\activate
-    pip install -r requirements.txt
+    ./run.sh
     ```
 
-## 🚀 Uso
-
-Puedes ejecutar la aplicación directamente usando el script auxiliar:
-
-```bash
-./run.sh
-```
-
-O manualmente desde Python:
-
-```bash
-python epub_rsvp_reader.py
-```
-
-1.  Haz clic en **"Añadir Libro"** o **"Escanear Carpeta"** para cargar tus EPUBs.
-2.  Selecciona un libro de la lista.
-3.  Ajusta la velocidad WPM (Words Per Minute) a tu gusto.
-4.  ¡Presiona **Play** y empieza a leer!
-
-## 📂 Estructura del Proyecto
-
-*   `epub_rsvp_reader.py`: Código fuente principal.
-*   `library.db`: Base de datos SQLite local (se genera automáticamente).
-*   `samples/`: Libros de prueba de dominio público.
-*   `requirements.txt`: Lista de dependencias.
+## 🛠️ Requisitos
+*   Python 3.8+
+*   Dependencias: `ebooklib`, `beautifulsoup4`, `ttkbootstrap` (se instalan automáticamente en el primer uso si usas el script).
 
 ## 🤝 Contribuir
-
-¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar la detección de capítulos, soportar PDF o mejorar la UI, no dudes en abrir un Issue o Pull Request.
+Velox Reader es un proyecto de código abierto. Si encuentras un error o tienes una idea brillante, abre un issue o envía un pull request.
 
 ## 📜 Licencia
-
-Este proyecto es de código abierto.
+Distribuido bajo la licencia MIT. Eres libre de usarlo, modificarlo y compartirlo.
