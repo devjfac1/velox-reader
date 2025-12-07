@@ -11,6 +11,7 @@ library.db
 
 # EPUB files (large binaries shouldn't be in git source)
 *.epub
+!samples/*.epub
 
 # Error logs
 error.txt
